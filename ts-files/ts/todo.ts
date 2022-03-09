@@ -3,7 +3,7 @@ import year from './utils/showYear.js';
 import showAlertMessage from './utils/showAlertMessage.js';
 
 export let isEditing: boolean = false;
-export let todoList: singleTask[]; // fix this
+export let todoList: singleTask[];
 
 const InputText = document.getElementById('input-text')! as HTMLInputElement;
 const todoContainer = document.querySelector('.todo-container')! as HTMLElement;

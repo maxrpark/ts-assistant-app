@@ -1,7 +1,7 @@
 import renderList from './utils/renderList.js';
 import showAlertMessage from './utils/showAlertMessage.js';
 export let isEditing = false;
-export let todoList; // fix this
+export let todoList;
 const InputText = document.getElementById('input-text');
 const todoContainer = document.querySelector('.todo-container');
 // Listen event
